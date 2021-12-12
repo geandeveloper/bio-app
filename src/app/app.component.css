@@ -1,0 +1,149 @@
+.bio-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.shadow {
+    box-shadow: -3px -5px 5px -1px rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: -3px -5px 5px -1px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: -3px -5px 5px -1px rgba(0, 0, 0, 0.38);
+}
+
+
+/* ## CARD  ### */
+
+.bio-card {
+    align-self: center;
+    flex: 1;
+    background: #fff;
+    max-width: 95%;
+    border-top: 150px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 10px 20px 10px;
+}
+
+
+/* Bio Profile */
+
+.bio-profile {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: left;
+}
+
+.bio-profile p {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bio-profile .bio-username {
+    font-weight: normal;
+}
+
+
+/* BIO IMG */
+
+.bio-card .bio-img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.bio-card img {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -8%;
+    height: 100%;
+    width: auto;
+}
+
+.bio-card p {
+    color: #45c300;
+    font-weight: bold;
+}
+
+
+/* ## LINKS  ### */
+
+.bio-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-link {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: columnj;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+    flex: 1;
+    border: 2px solid #45c300;
+    padding: 10px;
+}
+
+.primary {
+    color: #45c300;
+}
+
+.bio-link a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #45c300;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+}
+
+.bio-link i {
+    width: 50px !important;
+}
+
+.bio-link:hover {
+    cursor: pointer;
+    color: #fff;
+    background: #45c300;
+}
+
+.bio-link:hover .primary {
+    color: #fff !important;
+}
+
+.bio-link:hover a {
+    color: #fff;
+}
+
+
+/* ## VIDEOS  ### */
+
+.bio-video {
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background: #45c300;
+    padding: 10px;
+    border-top: 100px;
+}
+
+.bio-video iframe {
+    border: 0;
+    height: 35vh
+}
+
+.bio-video p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+    border: 0
+}
